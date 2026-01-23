@@ -1,0 +1,8 @@
+node_modules
+.mastra
+.env
+dist
+*.log
+.git
+.gitignore
+image-to-b64.js
