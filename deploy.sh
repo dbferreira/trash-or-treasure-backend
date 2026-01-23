@@ -10,8 +10,7 @@ cd "$PROJECT_ROOT"
 
 rm -rf \
   "$PROJECT_NAME/node_modules" \
-  "$PROJECT_NAME/.mastra" \
-  "$PROJECT_NAME/frontend/node_modules"
+  "$PROJECT_NAME/.mastra"
 
 scp -r "$PROJECT_NAME" "${REMOTE_HOST}:${REMOTE_DIR}/"
 
