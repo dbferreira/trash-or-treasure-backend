@@ -5,7 +5,7 @@ COPY package*.json ./
 
 # Dependencies stage
 FROM base AS deps
-RUN npm install
+RUN npm ci
 
 # Build stage
 FROM deps AS builder

@@ -1,18 +1,15 @@
 {
   "name": "treasure-or-trash",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI agent that identifies second-hand items from photos and estimates their local resale value",
+  "author": "Daniel Ferreira",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "mastra dev",
     "build": "mastra build",
     "start": "mastra start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "engines": {
     "node": ">=22.13.0"
   },
